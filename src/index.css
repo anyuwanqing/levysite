@@ -12,3 +12,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+.logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Align logos with space between them */
+    gap: 5px; /* Optional, to create some space between logos */
+  }
+  
+.logo {
+    height: 100px; /* Fixed height for all logos */
+    object-fit: contain; /* Ensures logos maintain their aspect ratio */
+    flex: 1 1 15%; /* Makes the logos flexible but ensures they shrink with the container */
+  }
+
+
+.hover-link {
+    text-decoration: none; /* No underline by default */
+    color: inherit; /* Inherit the text color */
+}
+
+/* Underline the link when hovering */
+.hover-link:hover {
+    text-decoration: underline;
+  }
+
+h1{
+  color: white;
+}
+.white-text{
+  color:white;
+}

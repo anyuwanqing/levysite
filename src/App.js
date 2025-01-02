@@ -5,6 +5,13 @@ import Introduction from './components/introduction'
 import About from './components/about'
 import Timeline from './components/timeline'
 
+import Work from './components/work'
+import Publications from './components/publications'
+
+
+import Projects from './components/projects'
+
+
 class App extends Component {
   render() {
     return (
@@ -15,6 +22,9 @@ class App extends Component {
 					<Introduction></Introduction>
 					<About></About>
 					<Timeline></Timeline>
+          <Projects></Projects>
+          <Publications></Publications>
+          <Work></Work>
           	</div>
       	</div>
       </div>

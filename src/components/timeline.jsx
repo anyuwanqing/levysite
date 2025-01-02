@@ -2,14 +2,17 @@ import React, { Component } from 'react'
 
 export default class Timeline extends Component {
   render() {
+
+
     return (
+      
       <div>
         <section className="colorlib-experience" data-section="timeline">
           <div className="colorlib-narrow-content">
             <div className="row">
               <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
                 <span className="heading-meta">highlights</span>
-                <h2 className="colorlib-heading animate-box">Timeline</h2>
+                <h2 className="colorlib-heading animate-box">Education</h2>
               </div>
             </div>
             <div className="row">
@@ -21,9 +24,9 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Internship at Juniper <span>2019-present</span></h2>
-                        <p>I recently have joined the Juniper Networs as a Software Developer-Intern in the DevOps team. My major part of the work has been into the field of creating sustainable and flexible CI/CD (Continuous Integration & Continuous Development) pipelines which enables developers at Juniper to do rapid development. I am also exploring the role of container technology like Docker and container-orchrastation technologies like K8s, Swarm to create industry standard production environments.</p>
-                      </div>
+                        <h2>Boston University: Masters of Science <span> Sep 2022 - May 2024</span></h2>
+                        <p>I pursued the MS program in Computer Information Systems with a specialization in Web Development. The two-year curriculum covered a vaeirty of topics for IT business, Reponsive and Server-side web development, AI and machine learning, Database Design, and IT strategies. </p>
+                        </div>
                     </div>
                   </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
@@ -32,8 +35,8 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Undergraduation at DAIICT<span>2015-2019</span></h2>
-                        <p>I am pursuing my under-graduation studies with major in I.C.T.(Information & Communication Technology). I have taken courses like DSA, OOPs, Computer Networks, IOT, Web-Data Management over the years and have better understanding of these subjects.I have also been part of S.B.G.(Student Body Govenance) scince my first year of college.</p>
+                        <h2>Worcester Polytechnic Institute (WPI):  Bachelor of Science<span> Sep 2018 - May 2022</span></h2>
+                        <p>I majored in Computer Science, going through a well-rounded four-year CS education that covers programming languages, algorithms, data type, OOP, operating systems, database, and advanced math such as Linear Alg and statistical models.</p>
                       </div>
                     </div>
                   </article>
@@ -43,8 +46,8 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Primary and Higher Education <span>2003-2015</span></h2>
-                        <p>I have completed my higher secondary education with major subjects as Physics,Chemistry & Maths with 91 merit. During my time at school, I have developed interest in solving complex problems of the fundamental physics which helped me to improve my understanding of any problem and also my mathematical skills to actually solve the problems.</p> 
+                        <h2>Miss Hall's School <span>Sep 2014 - June 2022</span></h2>
+                        <p>This is a small private all-girls school in Pittesfield, MA. I have learnt AP math, AP computer science and AP physics here along with a variety of humanities courses.</p> 
                       </div>
                     </div>
                   </article>
